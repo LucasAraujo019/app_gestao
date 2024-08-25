@@ -17,8 +17,8 @@ use App\Http\Controllers\ContatoController;
 
 Route::get('/', [PrincipalController::class, 'principal']);
 
-Route::get('/contato', [SobreNosController::class, 'sobreNos']);
+Route::get('/contato', [ContatoController::class, 'contato']);
 
-Route::get('/sobre-nos', [ContatoController::class, 'contato']);
+Route::get('/sobre-nos', [SobreNosController::class, 'sobreNos']);
 
 
